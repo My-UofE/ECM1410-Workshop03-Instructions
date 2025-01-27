@@ -142,14 +142,14 @@ AgeToGroup completed with ternary operator
 
 ```java
 public class NumbersInSpanish {
-   public static void main(String[] args) {
-      // read the first argument passed to the program
-      int number = parseInt(args[0]); 
-
-      // delete the line below and replace with your code
-      System.out.println(number);
-   }
-}
+    public static void main(String[] args) {
+       // read the first argument passed to the program
+       int number = Integer.parseInt(args[0]); 
+ 
+       // delete the line below and replace with your code
+       System.out.println(number);
+    }
+ }
 ```
 
 **2.** We want this function to take an input integer in the range 1-5 and display that print the number in Spanish:
