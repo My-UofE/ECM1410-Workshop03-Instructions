@@ -261,7 +261,8 @@ public class PrintSquares {
         int endNum = in.nextInt();
 
         System.out.println("You entered: " + startNum + " and " + endNum);
-    } 
+    }
+}
 ```
 
 Compile and run the program.
