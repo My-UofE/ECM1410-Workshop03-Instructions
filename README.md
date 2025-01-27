@@ -148,6 +148,7 @@ public class NumbersInSpanish {
 
       // delete the line below and replace with your code
       System.out.println(number);
+   }
 }
 ```
 
