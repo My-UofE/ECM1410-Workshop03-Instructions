@@ -167,7 +167,6 @@ An example code structure is provided below:
 
 ```java
 if (number == 1) {
-
          System.out.println("uno");
 } else if ( ...... ) {
    ......
