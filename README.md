@@ -294,7 +294,7 @@ System.out.print("Enter a number: ");
 int number = in.nextInt();
 ```
 
-**2.** Comment out the lines that request and print the users name. Add a call to `in.next()` so that the program only reads the first integer when the user is asked to specify a number.
+**2.** Comment out the lines that request and print the users name. Add a call to `in.next()` to empty pending standard input before requesting the end value.
 
 **3.** We want our program to run from the start value, up to the end value (both integers) and display the sequence of square numbers:
 
