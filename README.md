@@ -153,7 +153,11 @@ public class NumbersInSpanish {
 
 **2.** We want this function to take an input integer in the range 1-5 and display that print the number in Spanish:
 
-( 1 - uno; 2 - dos; 3 - tres; 4 -cuatro; 5- cinco ). 
+ - 1: `uno`
+ - 2: `dos`
+ - 3: `tres`
+ - 4: `cuatro`
+ - 5: `cinco` 
 
 If the input integer is outside the range 1-5 your code should display the message (`Sorry I do not know that!`). 
 
