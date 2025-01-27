@@ -2,7 +2,7 @@
 
 Accept the GitHub Classrooms invitation that can be found at:
 
-## Task A: DemoIncrement.java
+## Task A: `DemoIncrement.java`
 
 In this task we will explore the behaviour of the increment operators `i++` and `++i`.
 
@@ -62,7 +62,7 @@ Make this change and check if you were correct.
 DemoIncrement completed
 ```
 
-## Task B: DemoTernary.java
+## Task B: Exploring the ternary operator `AgeToGroup.java`
 
 The following examples demonstrate the ternary operator:
 
@@ -136,7 +136,7 @@ AgeToGroup completed with ternary operator
 ```
 
 
-## Task C: NumbersInSpanish.java
+## Task C: `NumbersInSpanish.java`
 
 **1.** Create a file called `NumbersInSpanish.java`, and start with the following template code:
 
@@ -231,7 +231,7 @@ Once you have done this put in place the version that is appropriate for this ta
 NumbersInSpanish completed with switch-case
 ```
 
-## Task D: PrintSquares.java
+## Task D: `PrintSquares.java`
 
 **1**. Use the following code as a starting template for a java program called `PrintSquares.java`
 
@@ -294,7 +294,7 @@ Sequence of squares from 2 to 7:
 PrintSquares completed
 ```
 
-## Task E: SumSquares.java
+## Task E: `SumSquares.java`
 
 In this task we want to write a program that sums the sequence of squares between a start and end value.
 
@@ -327,7 +327,7 @@ Once your code works, commit your file `SumSquares.java` with commit message:
 SumSquares completed with while loop
 ````
 
-## Task F: AverageSquares.java
+## Task F: `AverageSquares.java`
 
 In this task we want to write a program that averages the sequence of squares between a start and end value.
 
@@ -358,7 +358,7 @@ AverageSquares completed with while loop
 AverageSquares completed with do-while loop
 ````
 
-## Task G: PrintPattern1.java 
+## Task G: `PrintPattern1.java` 
 
 **1.** Write a program called PrintPattern1.java that prompts user for the size (a non-negative integer) and prints the pattern as shown:
 
@@ -391,7 +391,7 @@ for (int row = 1; row <= size; row++) {
 PrintPattern1 completed
 ````
 
-## Task H: PrintPattern2.java 
+## Task H: `PrintPattern2.java` 
 
 **1.** Write a program called PrintPattern2.java that prompts user for the size (a non-negative integer between 1-5) and prints the pattern as shown:
 
