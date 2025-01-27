@@ -425,6 +425,8 @@ Enter the size: 5
 
 Hint. Use a nested-loop like the following to iterate over the rows (outer loop) and columns (inner loop)
 
+e.g the one below will print a square grid, and you can adapt this to draw the triangular pattern shown.
+
 ```
 // Outer loop to print each of the rows
 for (int row = 1; row <= size; row++) {
