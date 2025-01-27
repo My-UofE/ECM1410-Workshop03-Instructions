@@ -305,6 +305,14 @@ Sequence of squares from 2 to 7:
 4 9 16 25 36 49
 ```
 
+Hint. The following code provides a reminder of the structure to use when defining a `for` loop:
+
+```
+for (int i = 0; i < n; ++i) {
+         System.out.print(i);
+}
+```
+
 **4.** Once your code works, commit your file `PrintSquares.java` with commit message:
 
 ```
@@ -338,7 +346,17 @@ SumSquares completed with for loop
 
 **3.** Edit your code so that it makes use of a `while` loop (instead of using a `for` loop). 
 
-Once your code works, commit your file `SumSquares.java` with commit message:
+Hint. The following code provides a reminder of the structure to use when defining a `while` loop:
+
+```
+int i = 0;
+while (i < n) {
+    System.out.print(i);
+    ++i;
+}
+```
+
+**4.** Once your code works, commit your file `SumSquares.java` with commit message:
 
 ```
 SumSquares completed with while loop
@@ -368,6 +386,16 @@ AverageSquares completed with while loop
 ````
 
 **2.** Edit your code so that it makes use of a `do-while` loop instead of a `while` loop. 
+
+Hint. The following code provides a reminder of the structure to use when defining a `do`-`while` loop:
+
+```
+int i = 0;
+do {
+    System.out.print(i);
+    ++i;
+} while (i < n);
+```
 
 **3.** Once your code works, commit your file `AverageSquares.java` with commit message:
 
