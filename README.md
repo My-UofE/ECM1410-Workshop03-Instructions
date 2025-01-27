@@ -40,18 +40,18 @@ Did it behave as you expect?
 **3.** Add in the extra lines of code below the line `int y = ++x + 5;`
 
 ```java
-int c = 3;
-++c;
-int z = c + 5; 
+int p = 3;
+++p;
+int q = p + 5; 
 ```
 
 Now add code so that these terms are displayed alongside the others, so the the program outputs a string in the format:
 
 ```
-a: _, b: _, c: _, x: _, y: _, z: _,
+a: _, b: _, x: _, y: _, p: _, q: _
 ```
 
-**4.** Predict what the output will be if you change `++c` to `c++`. 
+**4.** Predict what the output will be if you change `++p` to `p++`. 
 
 Make this change and check if you were correct.
 
