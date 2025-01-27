@@ -276,7 +276,7 @@ Note that if the standard input already contains uncollected data, the commands 
 
 e.g. if you run the code, and enter two values `5 7` when the program asks for the start value, the `int startNum = in.nextInt();` gets the first int, but leaves the second one uncollected.
 
-The second call to `int endNum = in.nextInt();` will then collect this, without asking the user. In most cases this behaviour might be unwanted. To prevent this we can add a call to `scanner.next();` prior to printing a prompt for input, which will collect (and clear) any pending data in standard in.
+The second call to `int endNum = in.nextInt();` will then collect this, without asking the user. In most cases this behaviour might be unwanted. To prevent this we can add a call to `scanner.next();` prior to printing a prompt for input, which will collect (and clear) any pending data that is uncollected in the standard input.
 
 **2.** Comment out the lines that request and print the users name. Add a call to `scanner.next()` so that the program only reads the first integer when the user is asked to specify a number.
 
