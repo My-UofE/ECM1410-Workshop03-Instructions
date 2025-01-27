@@ -296,7 +296,7 @@ int number = in.nextInt();
 
 **2.** Comment out the lines that request and print the users name. Add a call to `in.next()` to empty pending standard input before requesting the end value.
 
-**3.** We want our program to run from the start value, up to the end value (both integers) and display the sequence of square numbers:
+**3.** We want our program to use a `for` loop to run from the start value, up to the end value (both integers) and display the sequence of square numbers:
 
 e.g. for start value `2` and end value `7` the program should output:
 
@@ -308,7 +308,7 @@ Sequence of squares from 2 to 7:
 **4.** Once your code works, commit your file `PrintSquares.java` with commit message:
 
 ```
-PrintSquares completed
+PrintSquares completed with for loop
 ```
 
 ## Task E: `SumSquares.java`
