@@ -277,9 +277,12 @@ We can then use functions from the library `in.nextLine()` and `in.nextInt()` th
 
 Note that if the standard input already contains uncollected data, the commands will read in from the data already entered into the standard input.
 
-e.g. if you run the code, and enter two values `5 7` when the program asks for the start value, the `int startNum = in.nextInt();` gets the first int, but leaves the second one uncollected.
+e.g. Suppose you run the code, and when the program asks for the start value you enter two values `5 7` .
+When `int startNum = in.nextInt();` is called, it will collect the first int `5` but leaves the `7` uncollected.
 
-The second call to `int endNum = in.nextInt();` will then collect this, without asking the user. In most cases this behaviour might be unwanted. To prevent this we can add a scanner call `in.next();` prior to printing a prompt for input, which will collect (and clear) any pending data that is uncollected in the standard input.
+When `int endNum = in.nextInt();` is called, the program will then collect the `7` that remains uncollected, without asking the user for a new number.
+
+In most cases this behaviour might be unwanted. One way to prevent it is to add a scanner call `in.next();` prior to printing a prompt for input. This will collect (and clear) any pending data that is as yet uncollected, so the feed it ready for new input.
 
 e.g.
 
