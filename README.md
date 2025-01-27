@@ -278,6 +278,7 @@ We can then use functions from the library `in.nextLine()` and `in.nextInt()` th
 Note that if the standard input already contains uncollected data, the commands will read in from the data already entered into the standard input.
 
 e.g. Suppose you run the code, and when the program asks for the start value you enter two values `5 7` .
+
 When `int startNum = in.nextInt();` is called, it will collect the first int `5` but leaves the `7` uncollected.
 
 When `int endNum = in.nextInt();` is called, the program will then collect the `7` that remains uncollected, without asking the user for a new number.
