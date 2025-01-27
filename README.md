@@ -382,7 +382,7 @@ but if `a` and `b` are doubles, then the calculation `a/b` will produce double 3
 
 ```
 Average of squares from 2 to 7:
-23.1666667
+23.166666666666668
 ```
 
 Once your code works, commit your file `AverageSquares.java` with commit tag:
