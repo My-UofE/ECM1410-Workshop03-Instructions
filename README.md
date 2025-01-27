@@ -283,15 +283,21 @@ When `int startNum = in.nextInt();` is called, it will collect the first int `5`
 
 When `int endNum = in.nextInt();` is called, the program will then collect the `7` that remains uncollected, without asking the user for a new number.
 
-In most cases this behaviour might be unwanted. One way to prevent it is to add a scanner call `in.next();` prior to printing a prompt for input. This will collect (and clear) any pending data that is as yet uncollected, so the feed it ready for new input.
+In most cases this behaviour might be unwanted. A way to help prevent this in this case is to place a scanner call `in.nextLine();` after collecting the first integer. 
+
+This will collect (and clear) any pending data that is as yet uncollected, so the feed it ready for new input.
 
 e.g.
 
 ```java
-// Clear any existing input and prompt for a number
-in.next();
 System.out.print("Enter a number: ");
-int number = in.nextInt();
+// try to collect an integer value from standard input, waiting for data entry if neccessary
+int number1 = in.nextInt();
+// clear any additonal text that remains uncollected 
+in.nextLine();
+
+System.out.print("Enter another number: ");
+int number2 = in.nextInt();
 ```
 
 **2.** Comment out the lines that request and print the users name. Add a call to `in.next()` to empty pending standard input before requesting the end value.
