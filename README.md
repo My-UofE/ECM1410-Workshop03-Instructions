@@ -22,7 +22,7 @@ public class DemoIncrement {
         System.out.print(", x: " + x);
         System.out.println(", y: " + y);
 
-        // Replace the XXXX in the following with the correct term
+        // Replace the xxxxx in the following with the correct term
         System.out.println("i++ means xxxxx-increment");
         System.out.println("++i means xxxxx-increment");
     }
