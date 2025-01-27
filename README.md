@@ -268,17 +268,28 @@ Compile and run the program.
 
 This template code shows how we can accept and process user input while the code is running.
 
-Here we use the `Scanner` class included as part of the `java.utils` library to handle the collection of standard input, i.e. what the user types in the keyboard.
+Here we use the `Scanner` class included as part of the `java.utils` library to handle the collection of data from the **standard input** stream, i.e. what the user types in the keyboard. 
 
-In particular the `.nextLine()` and `.nextInt()` functions request data from the standard input and will pause the execution of the code until it has been collected.
+We create an instance of the Scanner class connected to standard input with variable name `in`. 
+
+We can then use functions from the library `in.nextLine()` and `in.nextInt()` that connect to the standard input and will pause the execution of the code until the requested data has been collected.
 
 Note that if the standard input already contains uncollected data, the commands will read in from the data already entered into the standard input.
 
 e.g. if you run the code, and enter two values `5 7` when the program asks for the start value, the `int startNum = in.nextInt();` gets the first int, but leaves the second one uncollected.
 
-The second call to `int endNum = in.nextInt();` will then collect this, without asking the user. In most cases this behaviour might be unwanted. To prevent this we can add a call to `scanner.next();` prior to printing a prompt for input, which will collect (and clear) any pending data that is uncollected in the standard input.
+The second call to `int endNum = in.nextInt();` will then collect this, without asking the user. In most cases this behaviour might be unwanted. To prevent this we can add a scanner call `in.next();` prior to printing a prompt for input, which will collect (and clear) any pending data that is uncollected in the standard input.
 
-**2.** Comment out the lines that request and print the users name. Add a call to `scanner.next()` so that the program only reads the first integer when the user is asked to specify a number.
+e.g.
+
+```java
+// Clear any existing input and prompt for a number
+in.next();
+System.out.print("Enter a number: ");
+int number = in.nextInt();
+```
+
+**2.** Comment out the lines that request and print the users name. Add a call to `in.next()` so that the program only reads the first integer when the user is asked to specify a number.
 
 **3.** We want our program to run from the start value, up to the end value (both integers) and display the sequence of square numbers:
 
