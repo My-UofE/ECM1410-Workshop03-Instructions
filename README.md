@@ -291,7 +291,7 @@ e.g.
 
 ```java
 System.out.print("Enter a number: ");
-// try to collect an integer value from standard input, waiting for data entry if neccessary
+// try to collect an integer value from standard input, waiting for data entry if necessary
 int number1 = in.nextInt();
 // clear any additonal text that remains uncollected 
 in.nextLine();
@@ -460,7 +460,7 @@ Enter the size: 3
 ```
 
 
-If the user specifies a number below 1 or above 5 it should display the message `too big!` or `too small` and prompt until a vaild value is entered.
+If the user specifies a number below 1 or above 5 it should display the message `too big!` or `too small!` and prompt until a vaild value is entered.
 
 **2.** Once your code works, commit your file `PrintPattern2.java` with commit message:
 
