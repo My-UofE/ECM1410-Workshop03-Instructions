@@ -16,7 +16,9 @@ To run the tests please enter the following command in your working directory (i
 ./tests/test_all.sh | tee results.txt
 ```
 
-This will run the tests and display the results (and also save a copy in file `results.txt`. If you have trouble correcting any bugs/issues so all tests pass, please contact me p.lewis2@exeter.ac.uk and I can try to help.
+This will display the results (and also save a copy in file `results.txt`).
+
+If you have trouble correcting any bugs/issues so all tests pass, please contact me p.lewis2@exeter.ac.uk and I can try to help.
 
 ## Task A: `DemoIncrement.java`
 
