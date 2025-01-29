@@ -135,7 +135,7 @@ public class AgeToGroup {
 }
 ```
 
-Copy this code into a file names AgeToGroup.java and test itworks as it should, e.g. run
+Copy this code into a file names AgeToGroup.java and test it works as it should, e.g. run
 
 ```
 java AgeToGroup 70
@@ -353,7 +353,7 @@ In this task we want to write a program that sums the sequence of squares betwee
 cp PrintSquares.java SumSquares.java
 ```
 
-Open this file in the editor, and edit the function name to `SumSquares.java`.
+Open this file in the editor, and edit the function name to `SumSquares`.
 
 Change the code so that instead of printing the sequence, it prints the sum of the squares, i.e.
 
