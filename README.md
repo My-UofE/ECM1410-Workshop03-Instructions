@@ -450,6 +450,7 @@ PrintPattern1 completed
 
 ```
 Enter the size: 3
+
 123321
 234432
 345543
