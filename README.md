@@ -1,6 +1,22 @@
 # ECM1410-Workshop03-Instructions
 
-Accept the GitHub Classrooms invitation that can be found at:
+**UPDATE 29th Jan 2025** 
+
+Tests are now available to check that your java code works correctly. If you do not have a `tests` folder in your repository please commit and push any files you are working on, then enter the following git commands in the terminal to pull them from the template repository:
+
+```
+git fetch upstream
+git merge upstream/main -m 'add test directory'
+git push
+```
+
+To run the tests please enter the following command in your working directory (i.e. the one which contains your `.java` files:
+
+```
+./tests/test_all.sh | tee results.txt
+```
+
+This will run the tests and display the results (and also save a copy in file `results.txt`. If you have trouble correcting any bugs/issues so all tests pass, please contact me p.lewis2@exeter.ac.uk and I can try to help.
 
 ## Task A: `DemoIncrement.java`
 
