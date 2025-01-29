@@ -120,7 +120,7 @@ public class AgeToGroup {
 Copy this code into a file names AgeToGroup.java and test itworks as it should, e.g. run
 
 ```
-java AgeToGroup 70
+java AgeToGroup.java 70
 ```
 
 
