@@ -496,6 +496,17 @@ If the user specifies a number below 1 or above 5 it should display the message 
 PrintPattern2 completed
 ````
 
+#### Note on the PrintPattern2 test
+
+If you find that you are passing the test for PrintPattern2 with an input of 1, but failing for inputs of 3 and 5, please open the `test_08_PrintPattern2.sh` file and ensure the the following edits to add `\n` as indicated:
+
+
+File: `./tests/test_08_PrintPattern2.sh`
+
+LINE 49: `declare -A pairs=( ["3\n"]="""123321`
+
+LINE 70: `declare -A pairs=( ["5\n"]="""1234554321`
+
 
 
 
