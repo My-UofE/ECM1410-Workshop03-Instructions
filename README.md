@@ -474,7 +474,26 @@ PrintPattern1 completed
 
 ## Task H: `PrintPattern2.java` 
 
-**1.** Write a program called PrintPattern2.java that prompts user for the size (a non-negative integer between 1-5) and prints the pattern as shown:
+**1.** Write a program called PrintPattern2.java that prompts user for the size (a non-negative integer between 1-5) and prints the pattern in line with the examples below:
+
+
+Examples: 
+
+```
+Enter the size: 1
+
+11
+11
+```
+
+```
+Enter the size: 2
+
+1221
+2332
+2332
+1221
+```
 
 ```
 Enter the size: 3
@@ -486,6 +505,8 @@ Enter the size: 3
 234432
 123321
 ```
+
+etc
 
 
 If the user specifies a number below 1 or above 5 it should display the message `too big!` or `too small!` and prompt until a vaild value is entered.
@@ -499,7 +520,6 @@ PrintPattern2 completed
 #### Note on the PrintPattern2 test
 
 If you find that you are passing the test for PrintPattern2 with an input of 1, but failing for inputs of 3 and 5, please open the `test_08_PrintPattern2.sh` file and ensure the the following edits to add `\n` as indicated:
-
 
 File: `./tests/test_08_PrintPattern2.sh`
 
