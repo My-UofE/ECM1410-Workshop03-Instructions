@@ -4,6 +4,14 @@
 
 Tests are now available to check that your java code works correctly. If you do not have a `tests` folder in your repository please commit and push any files you are working on, then enter the following git commands in the terminal to pull them from the template repository:
 
+First try the following and see if it picks up the tests directory.
+
+```
+git pull
+```
+
+If not run the following:
+
 ```
 git remote add ecm1410w3 https://github.com/My-UofE/ecm1410-object-oriented-programming-24-25-workshop-03-Workshop-3
 git fetch ecm1410w3
