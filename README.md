@@ -7,7 +7,7 @@ Tests are now available to check that your java code works correctly. If you do 
 First try the following and see if it picks up the tests directory.
 
 ```
-git pull
+git pull --rebase
 ```
 
 If not run the following:
