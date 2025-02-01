@@ -235,7 +235,7 @@ You can see an example structure for this below:
 // Using switch
      switch(number) {
         case 1:
-           System.out.println( ...... ); break; // Don’t forget the  "break" after each case!
+           System.out.println( ...... ); break; // don't forget the break after each case!
         case 2:
            System.out.println( ...... ); break;
         ......
