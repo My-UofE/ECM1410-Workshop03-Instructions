@@ -84,11 +84,23 @@ a: _, b: _, x: _, y: _, p: _, q: _
 Make this change and check if you were correct.
 
 
+
 **5.** When you have your code working commit your code and sync to your GitHub classroom repository with the commit message:
 
 ```
 DemoIncrement completed
 ```
+
+**Note** When you have completed this task, the expected output of `DemoIncrement.java`
+is three lines in the following format:
+
+```
+a: _, b: _, x: _, y: _, p: _, q: _
+i++ means xxxxx-increment
+++i means xxxxx-increment
+```
+
+where the keywords *pre* and *post* are inserted into the correct positions of lines 2/3. 
 
 ## Task B: Exploring the ternary operator `AgeToGroup.java`
 
@@ -145,13 +157,11 @@ public class AgeToGroup {
 }
 ```
 
-Copy this code into a file names AgeToGroup.java and test it works as it should, e.g. run
+Copy this code into a file names `AgeToGroup.java` and test it works as it should, e.g. run
 
 ```
 java AgeToGroup 70
 ```
-
-
 
 **2.** Rewrite this code to use ternary operators (i.e. it does not use `if` commands). 
 
@@ -162,6 +172,7 @@ Check your function works for all valid ages (e.g. try examples from range 0-120
 ```
 AgeToGroup completed with ternary operator
 ```
+
 
 
 ## Task C: `NumbersInSpanish.java`
@@ -190,7 +201,7 @@ public class NumbersInSpanish {
 
 If the input integer is outside the range 1-5 your code should display the message (`Sorry I do not know that!`). 
 
-Write code to do this that uses a nested-`if` code block.
+Write code to do this that uses a `if` - `else if` - `else` code block.
 
 An example code structure is provided below:
 
@@ -224,7 +235,7 @@ cinco
 **3.** Once you have your code working, make a commit of the `NumbersInSpanish.java` with the commit message:
 
 ```
-NumbersInSpanish completed with nested-if
+NumbersInSpanish completed with if - else if - else
 ```
 
 **4.** Working in the same file, edit your code so it instead uses `switch`-`case` commands. 
@@ -346,6 +357,8 @@ for (int i = 0; i < n; ++i) {
          System.out.print(i);
 }
 ```
+
+Note. To end the line after the loop ends, we can make a call to `System.out.println();`
 
 **4.** Once your code works, commit your file `PrintSquares.java` with commit message:
 
